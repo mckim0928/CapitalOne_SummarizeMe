@@ -1,0 +1,19 @@
+{
+	"name": "SummarizeMe",
+	"description": "This extensions shows a summarized content of the article, as well as the title, author, and the published date.",
+	"version": "1.0",
+	"manifest_version": 2, 
+
+	"browser_action": {
+	"default_title": "Summarize Me!",
+	"default_icon": "icon.png", // icon downloaded and used from https://developer.chrome.com/extensions/getstarted
+	"default_popup": "SummarizeMe.html"
+	},
+
+	"permissions": [
+		"activeTab", 
+		"http://*/*",
+		"https://*/*"
+	]
+
+}
